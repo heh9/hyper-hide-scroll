@@ -1,0 +1,27 @@
+{
+  "name": "hyper-hide-scroll",
+  "version": "1.0.0",
+  "description": "Extenstion for hiding the scrollbar in Hyper",
+  "main": "index.js",
+  "scripts": {
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladimiriacob/hyper-hide-scroll.git"
+  },
+  "keywords": [
+    "hyper.app",
+    "hyperterm",
+    "hyper.js"
+  ],
+  "author": "Vladimir Iacob <vladimiriacobm@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vladimiriacob/hyper-hide-scroll/issues"
+  },
+  "homepage": "https://github.com/vladimiriacob/hyper-hide-scroll#readme",
+  "devDependencies": {
+    "semantic-release": "^15.1.7"
+  }
+}
