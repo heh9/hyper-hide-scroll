@@ -8,9 +8,9 @@
     "url": "git+https://github.com/vladimiriacob/hyper-hide-scroll.git"
   },
   "keywords": [
+    "hyper",
     "hyper.app",
-    "hyperterm",
-    "hyper.js"
+    "hyper-plugin"
   ],
   "author": "Vladimir Iacob <vladimiriacobm@gmail.com>",
   "license": "MIT",
