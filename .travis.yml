@@ -1,15 +1,18 @@
 sudo: false
+
 language: node_js
+
+cache:
+  directories:
+    - ~/.nvm
+
 notifications:
   email: false
-node_js:
-  - "8"
-install:
-  - npm install
-before_script:
-  - npm prune
-after_success:
-  - npm run semantic-release
-branches:
-  except:
-    - /^v\d+\.\d+\.\d+$/
+
+node_js: 8
+
+deploy:
+  provider: script
+  skip_cleanup: true
+  script:
+    - npx semantic-release
