@@ -14,3 +14,12 @@ module.exports = {
   ],
 }
 ```
+## Screenshots
+
+With `hyper-hide-scroll`:
+
+![hyperterm with hide scroll disabled scrollbar](.github/after.png?raw=true)
+
+Without `hyper-hide-scroll` (default):
+
+![hyperterm without hide-scroll ](.github/before.png?raw=true)
