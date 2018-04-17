@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Extenstion for hiding the scrollbar in Hyper",
   "main": "index.js",
-  "scripts": {
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vladimiriacob/hyper-hide-scroll.git"
