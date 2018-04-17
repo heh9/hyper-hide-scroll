@@ -2,10 +2,6 @@ sudo: false
 
 language: node_js
 
-cache:
-  directories:
-    - ~/.nvm
-
 notifications:
   email: false
 
