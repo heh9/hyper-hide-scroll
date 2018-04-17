@@ -10,7 +10,9 @@
   "keywords": [
     "hyper",
     "hyper.app",
-    "hyper-plugin"
+    "hyper-plugin",
+    "scroll",
+    "plugin"
   ],
   "author": "Vladimir Iacob <vladimiriacobm@gmail.com>",
   "license": "MIT",
